@@ -1,0 +1,264 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: radial-gradient(circle farthest-corner at center,rgba(58,137,180,0) 0,rgba(58,137,180,.8) 100%),#FFF;
+}
+
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing: -.25px;
+    font-weight: 400;
+    font-size: 15px;    
+}
+
+
+#page{
+    background-color: #FFF;
+    min-height: 562.737px;
+    width: 785.275px;
+    border-radius: 10px;
+
+     /* page i ortalamak için */
+
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-left: -392.64px;
+     margin-top: -281.37px;
+}
+
+/* bu kısmı aldım */
+
+#page header h1 {
+
+	/* bu ikisi hariç */
+    width: 743.28px;
+    height: 46.48px;
+    
+
+    border: 0;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	list-style: none;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	background-image: url(https://cdn.e-devlet.gov.tr/themes/izmir/images/edkkds.103.svg);
+	background-repeat: no-repeat;
+	height: 1.66em;
+	background-position: left center;
+	background-size: contain
+}
+
+
+#main{
+    position: absolute;
+    left: 10px;
+    
+    border: solid blue 2px;
+    border-top: none;
+    width:760.275px;
+    height: 470.087px;
+
+}
+
+
+#kutu{
+    width: 520.29px;
+    min-height: 35.7px;
+    width: 100%;
+}
+
+#kutu tr td a{
+    text-decoration: none;
+}
+
+#main table  tr td{
+    width: 171.668px;
+    height: 17.850px;
+}
+
+#main img {
+    max-width: 165px;
+    width: 25%;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+/*  ikonlu kutuların sola yaslama */
+
+.col-2{
+    float:left;
+    text-align: center;
+    padding: 6px;
+    margin-top: 5px;
+    
+}
+.col-2 a{
+    text-decoration: none;
+}
+
+/* kutuların yan yana gelmesi */
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#edevlet{
+    min-width: 150.86px;
+    height: 38.08px;
+    border-top: solid blue 2px;
+}
+
+#mobil{
+   min-width: 122.85px;
+    height: 38.08px;
+    border-top: solid blue 2px;  
+}
+
+#eimza{
+    min-width: 99.81px;
+    height: 38.08px;
+    border-top: solid blue 2px;}
+
+#tc{
+    min-width: 150.91px;
+    height: 38.08px;
+    border-top: solid blue 2px;}
+
+#bank{
+    min-width: 175.88px;
+    height: 38.08px;
+    border-top: solid blue 2px;
+}
+
+i{
+    font-size: 20px;
+    margin-top: 5px;
+   
+}
+
+#text{
+    min-width: 711.275px;
+    height: 33.425px;
+    position: absolute;
+    top: 130px;
+    right: 0px;
+    padding-bottom: 7px;
+    border-bottom: dashed bisque 2px;
+}
+
+
+
+#table_1{
+    
+    position: absolute;
+    top: 215px;
+    left: 10px;
+    width: 550px;
+    height: 20px;
+    
+}
+
+#main form tr td i{
+    font-size: 14px;
+}
+
+
+#main form tr td {border: none;}
+
+#main form tr td a { 
+    text-decoration: none;
+    padding: 10px;
+}
+
+#main form tr td input{
+    width: 220px;
+}
+
+#main form  p{
+    
+    position: absolute;
+    top: 340px;
+    left: 230px;
+}
+
+tr.row2 td{
+    padding-top: 25px;
+}
+
+
+
+
+input[type=submit]{
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    top: 375px;
+    left: 360px;
+    background-color: #254FF1;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin:30px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+    input[type=reset] {
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    top: 375px;
+    left: 240px;
+    background-color: #d2e3eb;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin:30px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+
+#footer{
+    width: 743.275px;
+    height: 16.650px;
+    border-top: dashed bisque 2px;
+}
+
+#altLink{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;  
+}
+
+#altLink a{
+    text-decoration: none;
+}
+
+#altYazi{
+    opacity: 0.5;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+
+
+
+
